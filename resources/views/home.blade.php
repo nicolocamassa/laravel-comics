@@ -17,10 +17,15 @@
 
 <body>
     @include('partials.header')
+    
     <main class="bg-light">
-
+        @include('partials.jumbo')
+        @include('partials.comicsList')
+        @include('partials.merch')
+        
     </main>
 
+    @include('partials.footer')
 </body>
 
 </html>
