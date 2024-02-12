@@ -32,6 +32,7 @@
                             <img src="{{ $comic['thumb'] }}" alt="">
                             <p>{{ $comic['series'] }}</p>
                         </div> --}}
+                        
                     @endforeach
                 </div>
             </div>
