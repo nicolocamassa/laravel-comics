@@ -20,7 +20,9 @@
     
     <main class="bg-light">
         @include('partials.jumbo')
-        @include('partials.comicsList')
+        <div class="comicsList">
+    
+        </div>
         @include('partials.merch')
         
     </main>
