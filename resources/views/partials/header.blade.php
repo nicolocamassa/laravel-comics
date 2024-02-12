@@ -11,7 +11,7 @@
             <div class="content d-flex justify-content-between align-items-center">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="DC Comics logo">
                 <ul class="d-flex list-unstyled fs-5">
-                    <li class="me-4 fw-bold"><a href="{{ route('charters') }}">CHARATERS</a></li>
+                    <li class="me-4 fw-bold"><a href="{{ route('characters') }}">CHARACTERS</a></li>
                     <li class="me-4 fw-bold"><a href="">COMICS</a></li>
                     <li class="me-4 fw-bold"><a href="">MOVIES</a></li>
                     <li class="me-4 fw-bold"><a href="">TV</a></li>
