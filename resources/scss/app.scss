@@ -21,7 +21,16 @@ header{
         height: calc(100% - 30px);
 
         ul{
-            color: rgb(56, 56, 56);
+            
+
+            li{
+                cursor: pointer;
+
+                a{
+                    text-decoration: none;
+                    color: rgb(56, 56, 56);
+                }
+            }
         }
     }
 }

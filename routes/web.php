@@ -18,3 +18,7 @@ Route::get('/', function () {
     return view('home', compact('comics'));
 });
 
+Route::get('/charters', function () {
+    return view('charters');
+})->name('charters');
+

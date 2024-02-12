@@ -11,16 +11,16 @@
             <div class="content d-flex justify-content-between align-items-center">
                 <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="DC Comics logo">
                 <ul class="d-flex list-unstyled fs-5">
-                    <li class="me-4 fw-bold">CHARATERS</li>
-                    <li class="me-4 fw-bold">COMICS</li>
-                    <li class="me-4 fw-bold">MOVIES</li>
-                    <li class="me-4 fw-bold">TV</li>
-                    <li class="me-4 fw-bold">GAMES</li>
-                    <li class="me-4 fw-bold">COLLECTIBLES</li>
-                    <li class="me-4 fw-bold">VIDEOS</li>
-                    <li class="me-4 fw-bold">FANS</li>
-                    <li class="me-4 fw-bold">NEWS</li>
-                    <li class="me-4 fw-bold">SHOP</li>
+                    <li class="me-4 fw-bold"><a href="{{ route('charters') }}">CHARATERS</a></li>
+                    <li class="me-4 fw-bold"><a href="">COMICS</a></li>
+                    <li class="me-4 fw-bold"><a href="">MOVIES</a></li>
+                    <li class="me-4 fw-bold"><a href="">TV</a></li>
+                    <li class="me-4 fw-bold"><a href="">GAMES</a></li>
+                    <li class="me-4 fw-bold"><a href="">COLLECTIBLES</a></li>
+                    <li class="me-4 fw-bold"><a href="">VIDEOS</a></li>
+                    <li class="me-4 fw-bold"><a href="">FANS</a></li>
+                    <li class="me-4 fw-bold"><a href="">NEWS</a></li>
+                    <li class="me-4 fw-bold"><a href="">SHOP</a></li>
                 </ul>
                 <input type="text" name="search" id="search" placeholder="Search">
             </div>
