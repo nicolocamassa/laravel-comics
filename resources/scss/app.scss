@@ -7,28 +7,30 @@ header{
     .top_line{
         width: 100%;
         height: calc(100% - 120px);
-        background-color: blue;
+        background-color: #0282F9;
     }
 
     .bottom_line{
         width: 100%;
         height: calc(100% - 30px);
-        background-color: rgb(45, 45, 45);
     }
 }
 
 main{
     .jumbo{
         width: 100%;
-        height: 300px;
-        background-color: red;
+        height: 400px;
+        background-image: url(../img/jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .comicsList{
-        background-color: grey;
+        background-color: #1C1C1C;
         display: flex;
         flex-wrap: wrap;
         padding: 30px;
+        color: white;
 
         img{
             width: 200px;
@@ -36,20 +38,23 @@ main{
         }
     }
 
-    .merch{ /* FIXME: AGGIUNGERE CON BOOTSTRAP */
+    .merch{
         height: 170px;
-        background-color: blue;
+        background-color: #0282F9;;
     }
 }
 
 footer{
     .top_section{
         height: 400px;
-        background-color: black;
+        background-image: url(../img/footer-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .bottom_section{
         height: 100px;
-        background-color: gray;
+        background-color: #303030;
+
     }
 }
