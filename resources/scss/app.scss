@@ -25,13 +25,11 @@ main{
     }
 
     .comicsList{
-        width: 100%;
         height: 800px;
         background-color: grey;
     }
 
-    .merch{
-        width: 100%; /* FIXME: AGGIUNGERE CON BOOTSTRAP */
+    .merch{ /* FIXME: AGGIUNGERE CON BOOTSTRAP */
         height: 170px;
         background-color: blue;
     }
@@ -39,7 +37,6 @@ main{
 
 footer{
     .top_section{
-        width: 100%;
         height: 400px;
         background-color: black;
     }
