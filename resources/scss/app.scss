@@ -25,8 +25,15 @@ main{
     }
 
     .comicsList{
-        height: 800px;
         background-color: grey;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+
+        img{
+            width: 200px;
+            height: 300px;
+        }
     }
 
     .merch{ /* FIXME: AGGIUNGERE CON BOOTSTRAP */

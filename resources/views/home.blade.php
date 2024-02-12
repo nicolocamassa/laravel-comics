@@ -17,20 +17,31 @@
 
 <body>
     @include('partials.header')
-    
+
     <main class="bg-light">
         @include('partials.jumbo')
         <div class="comicsList">
-    
+            <div class="container">
+                <div class="row">
+                    @foreach ($comics as $comic)
+                        <div class="col-2">
+                            <img src="{{ $comic['thumb'] }}" alt="">
+                            <p>{{ $comic['series'] }}</p>
+                        </div>
+                        {{-- <div>
+                            <img src="{{ $comic['thumb'] }}" alt="">
+                            <p>{{ $comic['series'] }}</p>
+                        </div> --}}
+                    @endforeach
+                </div>
+            </div>
+
         </div>
         @include('partials.merch')
-        
+
     </main>
 
-    @foreach ($comics as $comic)
-        <img src="{{ $comic['thumb']}}" alt="">
-        <p>{{ $comic['series'] }}</p>
-    @endforeach
+
 
     @include('partials.footer')
 </body>
