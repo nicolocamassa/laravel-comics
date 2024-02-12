@@ -19,24 +19,24 @@
     @include('partials.header')
 
     <main class="bg-light">
+        
         @include('partials.jumbo')
         <div class="comicsList">
+            <div class="banner-list fw-bolder fs-4">CURRENT SERIES</div>
             <div class="container">
                 <div class="row">
                     @foreach ($comics as $comic)
                         <div class="col-2">
                             <img src="{{ $comic['thumb'] }}" alt="">
                             <p>{{ $comic['series'] }}</p>
-                        </div>
-                        {{-- <div>
-                            <img src="{{ $comic['thumb'] }}" alt="">
-                            <p>{{ $comic['series'] }}</p>
-                        </div> --}}
-                        
+                        </div>        
                     @endforeach
+                    <div class="col-12 mt-5 load-btn d-flex justify-content-center">
+                        <div class="text-center">LOAD MORE</div>
+                    </div>
                 </div>
             </div>
-
+            
         </div>
         @include('partials.merch')
 
