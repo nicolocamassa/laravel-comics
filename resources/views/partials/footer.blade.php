@@ -60,5 +60,10 @@
             </div>
         </div>
     </div>
-    <div class="bottom_section"></div>
+    <div class="bottom_section">
+        <div class="content d-flex justify-content-between fw-bold align-items-center">
+            <div class="btn-sign">SIGN-UP NOW!</div>
+            <div>FOLLOW US</div>
+        </div>
+    </div>
 </footer>
