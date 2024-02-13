@@ -151,6 +151,30 @@ main {
             margin-top: 20px;
         }
     }
+
+    .gray-bg{
+        background-color: rgb(239, 239, 239);
+        border-top: 1px solid rgb(223, 223, 223);
+        padding: 40px 0;
+
+        h4{
+            color: #003a5d;
+            font-weight: 600;
+        }
+
+        .specs{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-top: 1px solid rgb(223, 223, 223);;
+            
+            .artist{
+                padding: 0 100px;
+                text-align: right;
+            }
+        }
+    }
 }
 
 footer {
