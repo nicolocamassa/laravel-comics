@@ -25,6 +25,6 @@ Route::get('/characters', function () {
 Route::get('/comics/{param}', function($id) {
     $comics = ('comics');
     
-	return view('detail_products', compact('pasta', 'menu'));
+	dd($id);
 })->name('comics');
 
