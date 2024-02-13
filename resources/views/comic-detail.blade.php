@@ -9,8 +9,11 @@
     <div class="smaller-content bg-white-content">
         <h2>{{ $comic['title'] }}</h2>
         <div class="green-banner">
-            <div class="price">{{ $comic['price'] }}</div>
-            <div class="aviability"></div>
+            <div class="price">
+                <div class="price-us"><span>U.S. Price: </span>{{ $comic['price'] }}</div>
+                <div class="price-availability">Available</div>
+            </div>
+            <div class="availability">Check Availability</div>
         </div>
         <p>{{ $comic['description'] }}</p>
     </div>
